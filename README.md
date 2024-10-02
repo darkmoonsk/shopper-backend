@@ -10,7 +10,7 @@ A API possui três endpoints:
 
 - **POST /upload**: responsável por receber uma imagem em base 64, consultar o Gemini e retornar a medida lida pela API.
 - **PATCH /confirm**: responsável por confirmar ou corrigir o valor lido pelo LLM.
-- **GET /<customer code>/list**: responsável por listar as medidas realizadas por um determinado cliente.
+- **GET /:customerCode/list**: responsável por listar as medidas realizadas por um determinado cliente.
 
 ## Tecnologias Utilizadas
 
