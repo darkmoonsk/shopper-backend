@@ -39,7 +39,7 @@ A API possui três endpoints:
   - Request Body: `{ "measure_uuid": "string", "confirmed_value": integer }`
   - Response Body: `200: {"success": true }`
 
-- **GET /<customer code>/list**:
+- **GET /:costumerCode/list**:
 
   - Request Query Parameters: `?measure_type=WATER` ou `?measure_type=GAS` (opcional)
   - Response Body: `200: {"customer_code": string, "measures": [ {...}, {...} ]}`
